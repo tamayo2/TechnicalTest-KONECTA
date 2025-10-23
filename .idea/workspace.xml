@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1429b898-9e2f-41db-8728-ce8703da757f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env.docker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api/src/modules/stats/stats.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api/src/modules/stats/stats.router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/auth/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/auth/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/auth/authSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/sales/SaleDetail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/sales/SaleForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/sales/SalesPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/sales/Stats.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/sales/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/stats/Stats.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/stats/StatsChart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/stats/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/users/UsersPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/features/users/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/lib/authPersist.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/lib/baseQuery.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/lib/errorToastMiddleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/lib/format.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/lib/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/ProtectedRoute.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/src/modules/auth/auth.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/src/modules/auth/auth.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/src/modules/auth/captcha.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/src/modules/auth/captcha.service.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="34S99DqOq2jD3ZhgvxprgxbqqRe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/t4m4yo_/konecta-bank&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/t4m4yo_/konecta-bank/backend/api/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/api/api" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1429b898-9e2f-41db-8728-ce8703da757f" name="Changes" comment="" />
+      <created>1761195953061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761195953061</updated>
+      <workItem from="1761195954126" duration="7300000" />
+      <workItem from="1761234175224" duration="13869000" />
+      <workItem from="1761252973448" duration="522000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

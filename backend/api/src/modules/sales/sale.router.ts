@@ -5,7 +5,7 @@ import { create, list, get, update, remove } from "./sale.controller";
 import { createSaleSchema, updateSaleSchema } from "./sale.schemas";
 
 const r = Router();
-r.use(requireAuth);                       // cualquier usuario autenticado
+r.use(requireAuth);
 r.post("/", validate(createSaleSchema), create);
 r.get("/", list);
 r.get("/:id", get);

@@ -6,7 +6,6 @@ import { createUserSchema, updateUserSchema } from "./user.schemas";
 
 const r = Router();
 
-// Solo ADMIN:
 r.use(requireAuth, requireRole("ADMIN"));
 
 r.post("/", validate(createUserSchema), create);

@@ -2,7 +2,6 @@ import { prisma } from "../../db/prisma";
 import * as bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
-// Aseguramos tipos string y fallamos temprano si falta algo
 const JWT_SECRET = process.env.JWT_SECRET as string;
 const REFRESH_SECRET = process.env.REFRESH_SECRET as string;
 const JWT_EXPIRES_IN = (process.env.JWT_EXPIRES_IN || "15m") as jwt.SignOptions["expiresIn"];

@@ -1,0 +1,43 @@
+services:
+  db:
+    image: postgres:15
+    container_name: konecta-db
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: konecta
+    ports: ["5432:5432"]
+    volumes: [ "dbdata:/var/lib/postgresql/data" ]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d konecta"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build:
+      context: ./backend/api
+      dockerfile: Dockerfile
+    container_name: konecta-api
+    env_file:
+      - ./.env.docker
+    environment:
+      PORT: 4000
+    depends_on:
+      db:
+        condition: service_healthy
+    ports: ["4000:4000"]
+    command: pnpm dev
+
+  web:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: konecta-web
+    env_file:
+      - ./.env.docker
+    depends_on: [ api ]
+    ports: ["5173:5173"]
+    command: pnpm dev -- --host
+
+volumes:
+  dbdata:

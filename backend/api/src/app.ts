@@ -7,6 +7,7 @@ import userRouter from "./modules/users/user.router";
 import salesRouter from "./modules/sales/sale.router";
 import rateLimit from "express-rate-limit";
 import {errorHandler} from "./middleware/error";
+import statsRouter from "./modules/stats/stats.router";
 
 const app = express();
 app.use(helmet());
@@ -21,11 +22,11 @@ const loginLimiter = rateLimit({
     legacyHeaders: false,
 });
 
-// 👇 ESTA RUTA ES LA QUE ESTAMOS PROBANDO
 app.get("/health", (_req, res) => res.json({ ok: true }));
 app.use("/api/auth", loginLimiter, authRouter);
 app.use("/api/users", userRouter);
 app.use("/api/sales", salesRouter);
+app.use("/api/stats", statsRouter);
 
 app.use(errorHandler);
 export default app;
