@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1429b898-9e2f-41db-8728-ce8703da757f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.docker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/src/modules/stats/stats.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/src/modules/stats/stats.router.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/auth/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/auth/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/auth/authSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/sales/SaleDetail.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/sales/SaleForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/sales/SalesPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/sales/Stats.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/sales/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/stats/Stats.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/stats/StatsChart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/stats/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/users/UsersPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/users/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/lib/authPersist.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/lib/baseQuery.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/lib/errorToastMiddleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/lib/format.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/lib/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/routes/ProtectedRoute.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/routes/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/src/modules/auth/auth.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/src/modules/auth/auth.router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/src/modules/auth/captcha.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/src/modules/auth/captcha.service.ts" afterDir="false" />
-    </list>
+    <list default="true" id="1429b898-9e2f-41db-8728-ce8703da757f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +73,7 @@
       <updated>1761195953061</updated>
       <workItem from="1761195954126" duration="7300000" />
       <workItem from="1761234175224" duration="13869000" />
-      <workItem from="1761252973448" duration="522000" />
+      <workItem from="1761252973448" duration="1282000" />
     </task>
     <servers />
   </component>
