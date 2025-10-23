@@ -1,0 +1,59 @@
+// api/prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  ADVISOR
+}
+
+enum ProductType {
+  CONSUMO
+  LIBRANZA
+  TARJETA_CREDITO
+}
+
+enum Franchise {
+  AMEX
+  VISA
+  MASTERCARD
+}
+
+enum SaleStatus {
+  ABIERTO
+  EN_PROCESO
+  FINALIZADO
+}
+
+model User {
+  id           Int      @id @default(autoincrement())
+  name         String   @db.VarChar(50)
+  email        String   @unique @db.VarChar(50)
+  passwordHash String   @db.VarChar(120)
+  role         Role
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  salesCreated Sale[]   @relation("SalesCreated")
+  salesUpdated Sale[]   @relation("SalesUpdated")
+}
+
+model Sale {
+  id             Int         @id @default(autoincrement())
+  product        ProductType
+  cupoSolicitado Decimal     @db.Decimal(20, 2)
+  franchise      Franchise?
+  tasa           Decimal?    @db.Decimal(4, 2)
+  status         SaleStatus  @default(ABIERTO)
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+  createdById    Int
+  updatedById    Int
+  createdBy      User        @relation("SalesCreated", fields: [createdById], references: [id])
+  updatedBy      User        @relation("SalesUpdated", fields: [updatedById], references: [id])
+}
